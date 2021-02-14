@@ -1,18 +1,18 @@
 @font-face {
   font-family: WildBreak;
-  src: url("/assets/fonts/Wildbreak\ DEMO.otf");
+  src: url("assets/fonts/Wildbreak\ DEMO.otf");
 }
 @font-face {
   font-family: Blanchope;
-  src: url("/assets/fonts/Blanchope\ Free.ttf");
+  src: url("assets/fonts/Blanchope\ Free.ttf");
 }
 @font-face {
   font-family: StayHome;
-  src: url("/assets/fonts/STAY\ HOME.otf");
+  src: url("assets/fonts/STAY\ HOME.otf");
 }
 @font-face {
   font-family: CaviarDreams;
-  src: url("/assets/fonts/CaviarDreams.ttf");
+  src: url("assets/fonts/CaviarDreams.ttf");
 }
 
 h1 {
