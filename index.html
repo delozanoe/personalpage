@@ -24,7 +24,9 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <div class="banner" id="banner">
+
+    <!-- Este div bien podría ser un header -->
+    <header class="banner" id="banner">
       <h1 id="titleName">Daniel Lozano</h1>
       <ul class="nav justify-content-center" id="navbar">
         <li class="nav-item">
@@ -43,7 +45,7 @@
           <a class="nav-link" href="#contact">Contact/</a>
         </li>
       </ul>
-    </div>
+    </header>
     <section
       id="me"
       class="container-fluid info-continer principal-section blackbrackground"
@@ -60,7 +62,8 @@
         <!--Information about me-->
         <article class="col continer-backgorund-color">
           <h2 style="color: white">Who am i ?</h2>
-          <p class="textinfo">
+          <!-- El titulo centrado el texto cuerpo tambien -->
+          <p class="textinfo text-center-aling">
             My name is Daniel Esteban Lozano Espitia and I'm 20 years old. I was
             born on March 13, 2000 in the colombinan capital, Bogota. I'm
             currently a Computer and Systems Engineering student at Universidad
@@ -285,7 +288,7 @@
       </div>
       <!--Title projects-->
       <article class="continer info-continer" id="projects">
-        <h3>Projects</h3>
+        <h3 >Projects</h3>
         <div class="row">
           <!--Waste Away-->
           <div class="col projectContiner" id="wasteawayCotiner">
@@ -446,7 +449,7 @@
     </section>
     <section id="life" class="principal-section">
       <!--Section title-->
-      <div class="row info-continer" style="margin: :0px;">
+      <div class="row info-continer" style="margin: 0px;">
         <article class="col continer-backgorund-color info-continer">
           <p class="textinfo">
             These are some of my hobbies, interests, and other abilities. I hope you like the photos, enjoy the music and find new series or movies to watch.
@@ -721,16 +724,20 @@
               </div>
             </div>
           </div>
+          <!-- Demasiado peso en esta sección a la izquierda, me parece mejor centrar todo -->
           <div class="col continer-backgorund-color">
             <div class="text-center-aling">
-              <h3 class="">Series and Movies</h3>
-              <p class="">
+              <h3 class="text-center">Series and Movies</h3>
+              <p class="text-center">
                 “Because sometimes, even if you know how something’s going to
                 end, that doesn’t mean you can’t enjoy the ride.” <br />— Ted
                 Mosby
               </p>
-              <p>This is me - The Greatest Showman</p>
+              <!-- Los titulos deberian llevar la etiqueta de titulos, voy a dejar el p y agregar title a la clase para no dañar la fuente -->
+              <p class="text-center title">This is me - The Greatest Showman</p>
+              <!-- Hay que centrar estos videos  -->
               <iframe
+                class="justify-content-center"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/IRyMoHJu-i8?autoplay=1"
@@ -738,7 +745,7 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
-              <p>Battle of Bastards - Game of Thrones</p>
+              <p class="title text-center">Battle of Bastards - Game of Thrones</p>
               <iframe
                 width="560"
                 height="315"
@@ -752,7 +759,8 @@
         </div>
       </div>
     </section>
-    <footer id="contact" class="principal-section banner">
+    <!-- Me parece que el footer es demasiado grande -->
+    <footer id="contact" class="banner h-100">
       <!--Poner nav bar si alcanza el tiempo-->
       <h2>Contact me!</h2>
       <h3></h3>
