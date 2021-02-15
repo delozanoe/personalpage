@@ -1,3 +1,5 @@
+
+/* DEMASIADA FUETNES DISTINTAS */
 @font-face {
   font-family: WildBreak;
   src: url("assets/fonts/Wildbreak\ DEMO.otf");
@@ -20,6 +22,7 @@ h1 {
   font-size: 15rem;
   align-self: center;
 }
+
 
 h2 {
   font-family: Blanchope;
